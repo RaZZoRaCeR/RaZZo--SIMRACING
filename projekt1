@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimRacing - Moje Hobby</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            color: #e74c3c;
+            text-transform: uppercase;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #f0f0f0;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .game-section {
+            margin-bottom: 40px;
+        }
+        .game-section h2 {
+            margin-top: 0;
+        }
+        .game-section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">RaZZoЯ</div>
+        <h1>Moje Hobby</h1>
+    </header>
+    <nav>
+        <a href="#assetto-corsa">Assetto Corsa</a>
+        <a href="#assetto-corsa-competizione">Assetto Corsa Competizione</a>
+        <a href="#automobilista-2">Automobilista 2</a>
+        <a href="#richard-burns-rally">Richard Burns Rally</a>
+    </nav>
+    <div class="container">
+        <div id="assetto-corsa" class="game-section">
+            <h2>Assetto Corsa</h2>
+            <img src="https://www.assettocorsa.net/wp-content/uploads/2018/10/Assetto-Corsa-Competizione_screenshot_10.jpg" alt="Assetto Corsa">
+            <p>Assetto Corsa to symulator wyścigów, który oferuje realistyczną fizykę i wciągającą rozgrywkę. Gra jest znana z szerokiej gamy dostępnych samochodów i torów.</p>
+        </div>
+        <div id="assetto-corsa-competizione" class="game-section">
+            <h2>Assetto Corsa Competizione</h2>
+            <img src="https://www.assettocorsa.net/wp-content/uploads/2018/10/Assetto-Corsa-Competizione_screenshot_06.jpg" alt="Assetto Corsa Competizione">
+            <p>Assetto Corsa Competizione to oficjalna gra serii Blancpain GT. Oferuje wysoką jakość symulacji i realistyczne odwzorowanie warunków wyścigowych.</p>
+        </div>
+        <div id="automobilista-2" class="game-section">
+            <h2>Automobilista 2</h2>
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1066890/ss_57f6dc8d0970cf16ec9c4f275b3c4b6a7e05191c.1920x1080.jpg?t=1603992226" alt="Automobilista 2">
+            <p>Automobilista 2 to zaawansowany symulator wyścigowy, który oferuje szeroki wybór pojazdów i torów, a także realistyczne warunki jazdy i fizykę.</p>
+        </div>
+        <div id="richard-burns-rally" class="game-section">
+            <h2>Richard Burns Rally</h2>
+            <img src="https://images.igdb.com/igdb/image/upload/t_original/qck7n5v02yaohthzqqik.jpg" alt="Richard Burns Rally">
+            <p>Richard Burns Rally to klasyczna gra rajdowa, która zyskała uznanie za realistyczną fizykę jazdy i trudne trasy rajdowe.</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 SimRacing - Moje Hobby. Wszelkie prawa zastrzeżone. Właściciel strony: Paweł Nowak.</p>
+    </footer>
+</body>
+</html>
